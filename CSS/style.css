@@ -1,0 +1,84 @@
+/* цвет текста
+черный основной #212121
+белый #FFFFFF
+бледносерый добавочный #757575 
+акцентный голубой для текста и оформления #2196F3 
+цвета баннера и футера #2F303A
+для кнопок и секции светло серый #F5F4FA */
+
+:root {
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  color: #212121;
+}
+.web {
+  color: var(--accent-color);
+}
+ul {
+  list-style: none;
+}
+/* Header */
+.logo {
+  color: #212121;
+}
+.contacts a,
+.contacts a:visited {
+  color: #757575;
+}
+.site-nav a,
+.site-nav a:visited {
+  color: #212121;
+}
+.site-nav a:hover,
+.site-nav a:focus,
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* section banner */
+.banner {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.order {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+/* section our team */
+.ourteam {
+  background-color: #f5f4fa;
+}
+/* other */
+.desc {
+  color: #757575;
+}
+/* buttoms */
+.button {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer a {
+  color: #ffffff;
+}
+.address {
+  color: #ffffff;
+}
+.address a,
+.address a:visited {
+  color: rgba(255, 255, 255, 0.6);
+}
