@@ -32,26 +32,26 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-.contacts a,
-.contacts a:visited {
+.contacts .link,
+.contacts .link:visited {
   color: var(--second-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.site-nav a,
-.site-nav a:visited {
+.site-nav .link,
+.site-nav .link:visited {
   color: var(--main-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.site-nav a:hover,
-.site-nav a:focus,
-.contacts a:hover,
-.contacts a:focus {
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts .link:hover,
+.contacts .link:focus {
   color: var(--accent-color);
 }
 .site-nav .link.current {
@@ -96,7 +96,7 @@ body {
 .ourteam {
   background-color: #f5f4fa;
 }
-.ourteam h3 {
+.ourteam .heading-team {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -124,13 +124,13 @@ body {
   text-decoration: none;
 }
 /* section gallery */
-.gallery h2 {
+.gallery .heading-gallery {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.gallery-.desc {
+.gallery .desc {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -154,7 +154,7 @@ body {
 .footer {
   background-color: #2f303a;
 }
-.footer a {
+.footer .link {
   color: var(--clean-color);
 }
 .address {
@@ -165,7 +165,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.address a,
-.address a:visited {
+.address .link,
+.address .link:visited {
   color: rgba(255, 255, 255, 0.6);
 }
