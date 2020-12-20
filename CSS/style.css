@@ -18,7 +18,7 @@
 body {
   background-color: var(--clean-color);
   color: var(--main-color);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
@@ -34,7 +34,7 @@ body {
 /* Header */
 .logo {
   color: var(--main-color);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .contacts .link,
@@ -92,7 +92,7 @@ body {
 }
 
 /* section our advantages */
-.advantages h3 {
+.advantages .advantages-about {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -108,7 +108,7 @@ body {
 
 /* section our team */
 .ourteam {
-  background-color: ;
+  background-color: red;
 }
 
 .ourteam .heading-team {
