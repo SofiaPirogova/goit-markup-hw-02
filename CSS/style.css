@@ -108,7 +108,7 @@ body {
 
 /* section our team */
 .ourteam {
-  background-color: red;
+  background-color: var(--light-background);
 }
 
 .ourteam .heading-team {
